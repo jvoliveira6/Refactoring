@@ -5,7 +5,7 @@ public class Customer {
    private String _name;
    private Vector _rentals = new Vector();
 
-   public Customer (String name){
+   public Customer (String name) {
       _name = name;
    }
 
@@ -13,7 +13,7 @@ public class Customer {
       _rentals.addElement(arg);
    }
    
-   public String getName (){
+   public String getName () {
       return _name;
    }
 
